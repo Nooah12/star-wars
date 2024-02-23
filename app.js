@@ -3,7 +3,7 @@ import jediRouter from './routes/jedi.js';
 import sithRouter from './routes/sith.js';
 
 const app = express();
-const port = 3030;
+const port = process.env.PORT || 3030;
 
 app.get('/', (req, res) => {
     res.render('pages/home',
