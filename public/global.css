@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'starwars';
+    src: url('/fonts/starjedi-webfont.woff') format('woff');
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(158, 144, 147);
+    margin: 0;
+    font-weight: 700;
+}
+
+header {
+    padding: 24px;
+    text-align: center;
+    font-family: 'starwars';
+}
+
+body.jedi {
+    background-color: cornflowerblue;
+}
+
+body.sith {
+    background-color: rgb(212, 4, 4);
+}
+
+nav a {
+    padding: 8px;
+}
